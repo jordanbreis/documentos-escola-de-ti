@@ -1,0 +1,9 @@
+Requisitos Funcionais
+*Front:
+	-Tela funcional que exibe todas as configurações relacionadas a API:
+		>Tela para configurar/gerar a chave.
+		>Tela para automaticamente gerar um JSON com o BODY da requisição que você for fazer pra API, onde você passa pros dois campos, a lista de categorias, e a lista de produtos, e ele retorna pra você um JSON que você utilizará como BODY pra fazer a requisição até a API. - função consumir string e transformar em json
+	-Tela de Playground pra testar a API
+		>Tela onde você ou passa direto o JSON com as categorias e produtos que você quer, ou define as categorias em produtos em um campo de texto, e então ele retorna um JSON com todos os produtos categorizados pela categoria que você passou.
+*Back:
+	-API que, recebe um JSON que possui categorias e produtos, e em base desse JSON, gera um PROMPT com todas as categorias e produtos, e pede para a IA que iremos utilizar, categorizar os produtos em base das categorias através do prompt utilizado, a API então retorna como resposta esse JSON dos produtos categorizados.
